@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.class
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Files
+.vscode/
+.idea/

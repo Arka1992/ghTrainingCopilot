@@ -9,4 +9,4 @@ PORT=80
 docker build -t $IMAGE_NAME .
 
 # Run the Docker container
-docker run -d -p $PORT:80 --name $CONTAINER_NAME $IMAGE_NAME
+docker run -d -p $PORT:5000 --name $CONTAINER_NAME $IMAGE_NAME

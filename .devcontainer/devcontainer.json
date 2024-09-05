@@ -1,0 +1,17 @@
+{
+    "name": "Python Dev Container",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+    "remoteUser": "vscode"
+}
